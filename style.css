@@ -3,11 +3,18 @@ body{
     background-image: url("images/kirk2.webp");
     z-index: 0;
 }
-h1{
-    display:block;
-    margin-top:auto;
-    margin-left:auto;
-    margin-right:auto;
+
+
+.rainbowText{
+    background-image:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    
+    -webkit-background-clip:text;
+    background-clip:text;
+
+    -webkit-text-fill-color: transparent;
+    background-clip:text;
+
+    display:inline-block;
 }
 
 .background-effect{
@@ -15,6 +22,14 @@ h1{
     height:auto;
 }
 
+.titleText{
+    font-family:Impact;
+    font-weight:bolder;
+    display:block;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
 
 
 

@@ -1,9 +1,23 @@
 body{
     background-color:rgb(73, 57, 117);
-
+    background-image: url("images/kirk2.webp");
+    z-index: 0;
+}
+h1{
+    display:block;
+    margin-top:auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .background-effect{
     width:auto;
     height:auto;
 }
+
+
+
+
+/* @keyframes TopBGScroll{
+    
+} */

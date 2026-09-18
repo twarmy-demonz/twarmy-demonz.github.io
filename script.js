@@ -1,4 +1,5 @@
-const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSOCChgba6kTnJVYCq9EwjuOPkyGhlDa2LNUexGRO6c4yVypM88eoGzn0Nm0MxLs55Q3kHkotfaVS1S/pub?output=csv";
+const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSOCChgba6kTnJVYCq9EwjuOPkyGhlDa2LNUexGRO6c4yVypM88eoGzn0Nm0MxLs55Q3kHkotfaVS1S/pub?gid=1358922199&single=true&output=csv"; // my url
+// const CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTX-0PzLyXQDK_YlbV-4-0CXNvmeWgUaLZjRPYFHb8SEqVEjBHhN6O0_gMzvn7v-SfOnLze9hJiTBCR/pub?output=csv"; // mike url
 
 async function fetchSheetData() {
     try{
@@ -15,7 +16,7 @@ async function fetchSheetData() {
 }
 
 fetchSheetData();
-setInterval(fetchSheetData, 5000);
+setInterval(fetchSheetData, 600000);
 
 
 /*

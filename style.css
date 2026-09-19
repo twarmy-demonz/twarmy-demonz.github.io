@@ -1,9 +1,18 @@
 body{
     background-color:rgb(73, 57, 117);
-    /*background-image: url("images/kirk2.webp");*/
+    margin:0;
     z-index: 0;
 }
 
+header{
+    width:100%;
+    padding:5px 0;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-size:cover;
+    z-index: 1;
+    background-size:100%;
+    
+}
 
 .rainbowText{
     background-image:linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
@@ -29,6 +38,16 @@ body{
     margin-top:auto;
     margin-left:auto;
     margin-right:auto;
+}
+
+.tabList{
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:20px;
+    justify-content:space-evenly;
+    list-style-type:none;
 }
 
 #elephant-cube{
